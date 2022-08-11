@@ -1,8 +1,0 @@
-bash
-comunicacao
-escrita
-ingles
-internet
-japones
-pesquisa
-unix
