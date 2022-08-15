@@ -35,3 +35,11 @@ li {
     background-color: pink;
 }
 
+.link {
+    text-decoration: none;
+}
+
+.stack:hover {
+    font-weight: bold;
+    color: orange;
+}
