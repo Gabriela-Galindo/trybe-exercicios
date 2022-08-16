@@ -35,11 +35,37 @@ li {
     background-color: pink;
 }
 
-.link {
+a:link {
     text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
 }
 
 .stack:hover {
     font-weight: bold;
     color: orange;
+}
+
+.w3:hover {
+    font-weight: bold;
+    color: green;   
+}
+
+.mdn:hover {
+    font-weight: bold;
+    color: black;
+}
+
+.devdocs:hover {
+    font-weight: bold;
+    color: yellow;
+}
+
+.trybe:hover {
+    font-weight: bold;
+    color: green; 
 }
