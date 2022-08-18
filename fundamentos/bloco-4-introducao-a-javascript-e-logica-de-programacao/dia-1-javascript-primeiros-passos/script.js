@@ -35,7 +35,7 @@ const x = 0;
 //programa 6
 let peçaDeXadrez = 'cavalo';
 
-switch (peçaDeXadrez) {
+switch (peçaDeXadrez.toLowerCase()) {
     case 'peão':
         console.log('move uma casa');
         break;
