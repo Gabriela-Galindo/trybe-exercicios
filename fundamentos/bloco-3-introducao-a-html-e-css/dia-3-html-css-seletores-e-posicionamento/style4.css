@@ -1,0 +1,48 @@
+
+div:hover {
+    border-style: dotted;
+}
+
+div:first-of-type {
+    color: red;
+}
+
+div:nth-of-type(2) {
+    color: green;
+}
+
+div:nth-of-type(3) {
+    color: pink;
+    height: 100px;
+}
+
+div:nth-of-type(4) {
+    color: purple;
+}
+
+div:nth-of-type(5) {
+    color: yellow;
+}
+
+div:first-of-type h3 {
+    text-decoration-line: overline;
+    font-style: italic;
+}
+
+div:nth-of-type(2) h3 {
+    font-size: x-small;
+}
+
+div:nth-of-type(3) h3 {
+    font-size: x-large;
+    font-style: italic;
+}
+
+div:nth-of-type(4) h3 {
+    text-decoration-line: underline;
+}
+
+div:nth-of-type(5) h3 {
+    background-color: black;
+    font-style: italic;
+}
