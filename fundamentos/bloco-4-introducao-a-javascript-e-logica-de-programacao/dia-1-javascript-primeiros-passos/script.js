@@ -11,13 +11,29 @@ const x = 0;
 // console.log(a % b);
 
 //programa 2
-// if(a > b) {    console.log(a);} else {    console.log(b);}
+// if(a > b) {    
+//    console.log(a);
+// } else {    
+//    console.log(b);
+// }
 
 //programa 3
-// if(a > b && a > c) {    console.log(a);} else if(b > a && b > c) {    console.log(b);} else {    console.log(c);}
+// if(a > b && a > c) {    
+//    console.log(a);
+// } else if(b > a && b > c) {
+//    console.log(b);
+// } else {    
+//    console.log(c);
+// }
 
 //programa 4
-//if (x > 0) {    console.log('positive');} else if (x < 0) {    console.log('negative');} else {    console.log('zero');}
+//if (x > 0) {    
+//    console.log('positive');
+// } else if (x < 0) {
+//    console.log('negative');
+// } else {    
+//   console.log('zero');
+// }
 
 //programa 5
 // const anguloA = 30;
