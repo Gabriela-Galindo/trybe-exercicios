@@ -2,16 +2,23 @@
 
 # Módulo 1 - Fundamentos do Desenvolvimento Web
 
-## Bloco 1: Unix e Bash
-- [ ] 1.1 Fundamentos do Desenvolvimento Web
-- [ ] 1.1 Introdução - Unix e Shell
-- [ ] 1.1 Unix e Bash - Parte 1
-- [ ] 1.2 Unix e Bash - Parte 2
+## Bloco 1: Unix e Bash 
 
 ## Bloco 2: Git, GitHub e Internet
-- [ ] 2.1 Git e GitHub: o que é e para que serve?
-- [ ] 2.2 Git e GitHub: entendendo os comandos
-- [ ] 2.3 Internet - Entendendo como ela funciona
+
+## Bloco 3: Introdução à HTML e CSS
+- [X] 3.1 Introdução - HTML e CSS
+- [x] 3.1 HTML e CSS - Estruturas de página
+- [x] 3.2 HTML e CSS - Primeiros passos em CSS
+- [x] 3.3 HTML e CSS - Seletores e posicionamento
+- [x] 3.4 HTML Semântico
+
+## Bloco 4: Introdução à JavaScript e Lógica de Programação
+- [x] 4.1 Introdução - JavaScript
+- [x] 4.1 JavaScript - Primeiros passos
+- [x] 4.2 JavaScript - Array e loop For
+- [ ] 4.3 JavaScript - Lógica de Programação e Algoritmos
+- [ ] 4.4 JavaScript - Objetos e funções
 
 # Módulo 2 - Desenvolvimento Front-end
 
