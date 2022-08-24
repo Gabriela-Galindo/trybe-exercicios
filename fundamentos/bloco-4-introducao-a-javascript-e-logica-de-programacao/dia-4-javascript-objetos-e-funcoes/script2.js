@@ -31,3 +31,28 @@ function mostRepeated (inteiros) {
 }
 
 console.log(mostRepeated(array));
+
+
+// programa 1
+// Crie uma função que receba uma string e retorne true se for um palíndromo, ou false, se não for.
+// Exemplo de palíndromo: arara.
+// verificaPalindrome('arara');
+// Retorno esperado: true
+// verificaPalindrome('desenvolvimento');
+// Retorno esperado: false
+
+let testePalindromo = 'tenet';
+
+function isAPalindrome (string) {
+    const newArray = string.split('');
+    const arrayReverso = Array.from(newArray);
+    arrayReverso === arrayReverso.reverse();
+    const newString = arrayReverso.join('');
+    if (string === newString) {
+       return true;
+    } else {
+       return false;
+    }
+}
+
+console.log(isAPalindrome(testePalindromo));
