@@ -55,11 +55,54 @@
         6. Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console.
         */
        // exercicio 1
-       function changeText (text) {
-        let novoTexto = text;
-        novoTexto = document.getElementsByTagName("p");
-       }
+      function novaDescricao() {
+        let descricao = document.getElementsByTagName('p')[1];
+        descricao.innerHTML = 'Daqui 2 anos, espero ter uma carreira consolidade dentro da área de tecnologia.';
+      }
+      novaDescricao();
        
+      // exercicio 2
+      function novaCor() {
+        let newColor = document.getElementsByClassName('main-content')[0];
+        newColor.style.background = 'rgb(76,164,109';
+      }
+      novaCor();
+
+      //exercicio 3
+
+      function redToWhite () {
+        let vermelhorParaBranco = document.getElementsByClassName('center-content')[0];
+        vermelhorParaBranco.style.background = 'white';
+      }
+      redToWhite();
+
+      //exercicio 4
+
+      function novoTitulo () {
+        let newTitle = document.getElementsByClassName('title')[0];
+        newTitle.innerHTML = 'Exercício 5.1 - JavaScript';
+      }
+      novoTitulo();
+
+      //exercicio 5
+
+      function upperCase () {
+        let maiusculo = document.getElementsByTagName('p');
+        for (let index = 0; index < maiusculo.length; index += 1) {
+          maiusculo[index].style.textTransform = 'uppercase';
+        }
+      }
+      upperCase();
+
+      //exercicio 6
+
+      function conteudoParagrafo () {
+        let paragraphContent = document.getElementsByTagName('p');
+        return console.log(paragraphContent);
+      }
+
+      conteudoParagrafo();
+
     </script>
   </body>
 </html>
