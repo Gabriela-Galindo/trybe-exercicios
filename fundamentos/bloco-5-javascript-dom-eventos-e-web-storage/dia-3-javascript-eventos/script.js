@@ -24,17 +24,17 @@ function createDaysOfTheWeek() {
         diasDezembro.className = 'day';
 
         if (numerosDias === 24 || numerosDias === 31) {
-            diasDezembro.className = 'holiday';
+            diasDezembro.className = 'day holiday';
             listaDeDias.appendChild(diasDezembro);
         }
 
         if (numerosDias === 4 || numerosDias === 11 || numerosDias === 18) {
-            diasDezembro.className = 'friday';
+            diasDezembro.className = 'day friday';
             listaDeDias.appendChild(diasDezembro);
         }
 
         if (numerosDias === 25) {
-            diasDezembro.className = 'holiday friday';
+            diasDezembro.className = 'day holiday friday';
         }
 
         listaDeDias.appendChild(diasDezembro);
@@ -100,3 +100,15 @@ function createDaysOfTheWeek() {
   }
   let dezembroSextas = [4, 11, 18, 25];
   fridayText(dezembroSextas);
+
+  document.querySelectorAll('#days').addEventListener('mouseenter', zoomIn);
+  document.querySelectorAll('#days').addEventListener('mouseleave', zoomOut);
+
+  function zoomIn () {
+    document.querySelectorAll('#days').style.fontSize = '30px';
+  }
+
+  function zoomOut () {
+    document.querySelectorAll('#days').style.fontSize = '20px';
+  }
+
