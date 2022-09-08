@@ -17,8 +17,14 @@
 - [x] 4.1 Introdução - JavaScript
 - [x] 4.1 JavaScript - Primeiros passos
 - [x] 4.2 JavaScript - Array e loop For
-- [ ] 4.3 JavaScript - Lógica de Programação e Algoritmos
-- [ ] 4.4 JavaScript - Objetos e funções
+- [x] 4.3 JavaScript - Lógica de Programação e Algoritmos
+- [x] 4.4 JavaScript - Objetos e funções
+
+## Bloco 5: JavaScript: DOM, Eventos e Web Storage
+- [x] 5.1 JavaScript - DOM e seletores
+- [x] 5.2 JavaScript - Trabalhando com elementos
+- [x] 5.3 JavaScript - Eventos
+- [x] 5.4 JavaScript - Web Storage
 
 # Módulo 2 - Desenvolvimento Front-end
 
