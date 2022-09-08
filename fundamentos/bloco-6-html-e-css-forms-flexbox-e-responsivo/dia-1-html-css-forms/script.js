@@ -1,5 +1,7 @@
 let bttnSend = document.querySelector('#botao-enviar');
 
-bttnSend.addEventListener('click', function(event){
-    event.preventDefault;
-});
+function comportamentoPadrao (event) {
+    event.preventDefault();
+}
+
+bttnSend.addEventListener('click', comportamentoPadrao);
