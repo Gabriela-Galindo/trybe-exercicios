@@ -54,9 +54,11 @@
 
     section {
         display: flex;
+        flex-wrap: wrap;
     }
 
     figure {
         width: 45%;
+        flex-basis: 50%;
     }
   }
