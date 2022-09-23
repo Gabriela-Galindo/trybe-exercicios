@@ -2,13 +2,13 @@
 
 # Módulo 1 - Fundamentos do Desenvolvimento Web
 
-## Bloco 1: Unix e Bash
+## Seção 1: Unix e Bash
 - [ ] 1.1 Fundamentos do Desenvolvimento Web
 - [ ] 1.1 Introdução - Unix e Shell
 - [ ] 1.1 Unix e Bash - Parte 1
 - [ ] 1.2 Unix e Bash - Parte 2
 
-## Bloco 2: Git, GitHub e Internet
+## Seção 2: Git, GitHub e Internet
 - [ ] 2.1 Git e GitHub: o que é e para que serve?
 - [ ] 2.2 Git e GitHub: entendendo os comandos
 - [ ] 2.3 Internet - Entendendo como ela funciona
