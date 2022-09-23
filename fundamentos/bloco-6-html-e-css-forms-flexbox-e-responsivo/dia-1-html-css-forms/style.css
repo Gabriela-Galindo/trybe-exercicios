@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    font-family:  fantasy;
+    background-image: url(planodefundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.formulario {
+    background-color: antiquewhite;
+    width: 80%;
+    margin: 40px auto;
+    padding: 10px;
+    border: 8px solid white;
+}
